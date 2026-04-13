@@ -22,9 +22,6 @@ class Ccswitch < Formula
   url "https://github.com/gautamkumar7atgit/ClaudeCodeSwitch/releases/download/v#{version}/ccswitch"
   sha256 "52e863121d15059cc87e600cfe34ee0c946226b2811068b236b6d7e434da7414"
 
-  # No build step — we distribute a pre-built universal binary
-  bottle :unneeded
-
   def install
     bin.install "ccswitch"
   end
