@@ -7,6 +7,20 @@ Homebrew tap for [ccswitch](https://github.com/gautamkumar7atgit/ClaudeCodeSwitc
 ```bash
 brew tap gautamkumar7atgit/ccswitch
 brew install ccswitch
+# One-time: enable auto-updates for this tap
+brew tap --force-auto-update gautamkumar7atgit/ccswitch
+```
+
+## Update
+
+```bash
+ccswitch update
+```
+
+Or directly via Homebrew:
+
+```bash
+brew upgrade ccswitch
 ```
 
 ## First Run

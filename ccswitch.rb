@@ -33,6 +33,12 @@ class Ccswitch < Formula
 
       This will import your existing Claude Code credentials and start
       the background sync daemon via launchd.
+
+      To receive future updates automatically, run once:
+        brew tap --force-auto-update gautamkumar7atgit/ccswitch
+
+      After that, updates are as simple as:
+        ccswitch update
     EOS
   end
 
