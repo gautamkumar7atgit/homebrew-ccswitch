@@ -16,11 +16,11 @@
 class Ccswitch < Formula
   desc "Switch between multiple Claude Code OAuth accounts on macOS"
   homepage "https://github.com/gautamkumar7atgit/ClaudeCodeSwitch"
-  version "1.0.0"
+  version "1.0.1"
 
   # Universal binary (arm64 + x86_64)
   url "https://github.com/gautamkumar7atgit/ClaudeCodeSwitch/releases/download/v#{version}/ccswitch"
-  sha256 "b0b3008010de009a6d78ad872ac6eadcbf6a7fda0e2c064dd197066d9fdf4475"
+  sha256 "2029a56ccc37e0f8130a85e45d6b9682882da505947af6aa57267ef3b15c1ba2"
 
   def install
     bin.install "ccswitch"
