@@ -20,7 +20,7 @@ class Ccswitch < Formula
 
   # Universal binary (arm64 + x86_64)
   url "https://github.com/gautamkumar7atgit/ClaudeCodeSwitch/releases/download/v#{version}/ccswitch"
-  sha256 "PLACEHOLDER_UPDATE_AFTER_RELEASE"
+  sha256 "b0b3008010de009a6d78ad872ac6eadcbf6a7fda0e2c064dd197066d9fdf4475"
 
   def install
     bin.install "ccswitch"
