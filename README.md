@@ -20,11 +20,16 @@ This imports your existing Claude Code credentials, saves them as a named profil
 ## Usage
 
 ```bash
-ccswitch add <name>       # Save current Keychain credentials as a profile
-ccswitch use <name>       # Switch to a profile
-ccswitch list             # List all profiles
-ccswitch remove <name>    # Remove a profile
-ccswitch status           # Show active profile and daemon status
+ccswitch add <name>                     # Save current Keychain credentials as a profile
+ccswitch use <name>                     # Switch to a profile
+ccswitch list                           # List all profiles
+ccswitch remove <name>                  # Remove a profile
+ccswitch status                         # Show active profile and daemon status
+
+# Share credentials with teammates (v1.0.0+)
+ccswitch export <name>                  # Bundle a profile into an encrypted .ccspack file
+ccswitch export --all                   # Bundle all profiles
+ccswitch import <file>                  # Restore profiles from a .ccspack bundle
 ```
 
 ## More
